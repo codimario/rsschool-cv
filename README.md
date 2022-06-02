@@ -1,1 +1,1 @@
-# rsschool-cv
+https://codimario.github.io/rsschool-cv/cv
