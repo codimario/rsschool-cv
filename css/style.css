@@ -38,6 +38,10 @@ ul {
   color: red;
 }
 
+.description__photo img{
+  max-width: 300px;
+}
+
 .description__subtitle {
 }
 .description__list li {
