@@ -10,7 +10,7 @@
 
 ### About myself:
 
-I am a 23 years student studying Java Script. I like coffe.
+I am a 23 years student studying Java Script. I like coffee.
 
 ### Skills and Proficiency:
 
