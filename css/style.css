@@ -6,6 +6,7 @@ h1, h2, h3, h4, h5, h6 {
 html, body {
   padding: 0;
   margin: 0;
+  /* height: 100%; */
 }
 
 a {
@@ -27,23 +28,131 @@ ul {
   margin: 0 auto;
 }
 
-.description {
-}
-.description__container {
-}
-.description__title {
+.wrapper {
+  margin-bottom: 0;
 }
 
 .title {
   color: red;
 }
 
-.description__photo img{
-  max-width: 300px;
+.header__photo img{
+  max-width: 200px;
+  border-radius: 50px;
 }
 
 .description__subtitle {
 }
 .description__list li {
   margin-left: 25px;
+}
+
+.data__logo img {
+  max-width: 50px;
+}
+
+.header {
+  padding: 50px;
+  background-color: #ffd541;
+}
+.header__container {
+}
+.header__content {
+  display: flex;
+  width: 100%;
+}
+.header__photo {
+  flex: 1 1 30%;
+}
+
+.header__photo img {
+  transition: 0.2s linear;
+}
+
+.header__photo img:hover {
+  transform: scale(1.1);
+}
+
+
+.header__body {
+  flex: 1 1 70%;
+  max-width: 100%;
+}
+.header__title {
+  font-size: 64px;
+  font-weight: 700;
+  margin: 0 0 15px 0;
+}
+.header__data {
+  display: flex;
+  width: 100%;
+  font-size: 18px;
+  margin: 0 0 15px 0;
+}
+.data {
+}
+
+.data__link img{
+  max-width: 70px;
+}
+
+.data__link img{
+  max-width: 70px;
+}
+
+.data__link img{
+  transform: 0.2s;
+}
+
+.data__link img:hover{
+  transition: scale(1.1);
+}
+
+
+
+.data__git {
+}
+.data__year {
+  margin: 0 0 0 20px;
+}
+.data__logo {
+}
+.data__link {
+}
+
+.description {
+  padding: 30px 0 0 0;
+  background-color: #ebebeb;
+}
+
+.block {
+  margin: 0 0 30px 0;
+}
+
+.description__coding {
+  font-size: 14px;
+}
+
+ul li {
+  margin: 0 0 5px 0;
+}
+
+h1, h2 {
+  margin: 0 0 8px 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 1 100%;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #000;
+  color: #fff;
 }
