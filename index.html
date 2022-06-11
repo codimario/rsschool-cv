@@ -9,23 +9,110 @@
 </head>
 <body>
   <div class="wrapper">
-    <main class="description">
-      <div class="description__container">
-        <h1 class="description__title title">Maretski Andrei</h1>
-        <div class="description__photo">
-          <img src="img/IMG_5727.jpg" alt="">
+    <header class="header">
+      <div class="header__container">
+        <nav class="header__nav">
+          
+
+          <ul class="header__elemets elements"> 
+            <li class="elements__personal"><a href="#data">Personal data</a></li>
+            <li class="elements__about"><a href="#story">About myself</a></li>
+            <li class="elements__skills"><a href="#skills">My skills</a></li>
+            <li class="elements__code"><a href="#code">Code example</a></li>
+            <li class="elements__education"><a href="#ed">Education</a></li>
+            <li class="elements__projects"><a href="#projects">My projects</a></li>
+            <li class="elements__git"><a target="_blank" href="https://github.com/codimario">GitHUB</a>
+            </li>
+            <li class="elements__year"> <a target="_blank" href="https://ru.wikipedia.org/wiki/2022_%D0%B3%D0%BE%D0%B4">2022</a> </li>
+          </ul>
+          
+        </nav>
+
+        <div class="header__content">
+          <div class="header__photo">
+            <img src="img/IMG_5727.jpg" alt="">
+          </div>
+          
+          <div class="header__body">
+            <div class="header__title">Maretski Andrei</div>
+            <div class="header__data data">
+              <div class="data__description">Student of RS school</div>
+            </div>
+            <div class="header__logo">
+              <a href="https://rs.school/js/" target="_blank" class="data__link">
+                <img class="data__logo" src="https://rs.school/images/rs_school_js.svg" alt="rs logo">
+              </a>
+            </div>
+          </div>
         </div>
-        <hr>
-        <h2 class="description__subtitle">Personal data</h2>
-        <ul class="description__list">
-          <li>Location: Brest, Belarus</li>
-          <li>Phone: +375 29 123-45-67</li>
-          <li>E-mail: codimorio@gmail.com</li>
-          <li>Telegram: @upwake</li>
-          <li>GitHUB: codimario</li>
-        </ul>
+
       </div>
+    </header>
+
+    <main class="description">
+
+      <div class="description__container">
+        <div class="description__personal block">
+          <h1 id="data" class="description__subtitle">Personal data:</h1>
+          <ul class="description__list">
+            <li>Location: Brest, Belarus</li>
+            <li>Phone: +375 29 123-45-67</li>
+            <li>E-mail: codimorio@gmail.com</li>
+            <li>Telegram: @upwake</li>
+            <li>Discord: Mari0 (@codimario)</li>
+            <li><a target="_blank" href="https://github.com/codimario" class="description__git">GitHUB: codimario</a></li>
+          </ul>
+        </div>
+        
+        <div class="description__storytelling block">
+          <h2 id="story" class="description__subtitle">About myself:</h2>
+          <p class="description__tell">
+            I'm a 23-years self-taught software engineer who is studying at the rolling scopes school for the last two weeks. Before coming to the RS school i was teaching myself HTML and CSS for about 1.5 months.
+          </p>
+        </div>
+
+        <div class="description__skills block">
+          <h2 id="skills" class="description__subtitle">My skills:</h2>
+          <ul class="description__list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+          </ul>
+        </div>
+
+        <div class="description__code block">
+          <h2 id="code" class="description__subtitle">Code example:</h2>
+          <code class="description__coding">
+            const firstFunction = () => {
+              console.log('OMG')
+            };
+          </code>
+        </div>
+        
+        <div class="description__education block">
+          <h2 id="ed" class="description__subtitle">Education:</h2>
+          <ul class="description__list">
+            <li>Brest State Technical University</li>
+            <li>RS School</li>
+            <li>English degree: A2 (Pre-Intermediate)</li>
+          </ul>
+        </div>
+
+        <div id="projects" class="description__projects block">
+          <h2 class="description__subtitle">My projects:</h2>
+          <p class="projects__example">
+            <a href="https://github.com/codimario/rsschool-cv">My first rs-school repository</a>
+          </p>
+        </div>
+        
+      </div>
+      <footer class="footer">
+        © 2022 The Rolling Scopes
+      </footer>
     </main>
+
+    
   </div>
+  
 </body>
 </html>
